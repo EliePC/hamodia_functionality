@@ -124,7 +124,7 @@ add_action('after_setup_theme', function () {
         'public'             => true,
         'publicly_queryable' => true,
         'show_ui'            => true,
-        'show_in_menu'       => true,
+        'show_in_menu'       => false,  //true if you want to put into the menu better false
         'query_var'          => true,
         'menu_position'      => 4,
         'capability_type'    => 'post',
